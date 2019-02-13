@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ff">
+    <output-path>D:/war/ff</output-path>
+    <root id="archive" name="ff.war" />
+  </artifact>
+</component>
