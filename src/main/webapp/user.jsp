@@ -19,7 +19,8 @@
             var childs = $(this).parent().parent().children();
             var uid = childs[0].innerHTML;
             $.ajax({
-                url: "${pageContext.request.contextPath}/user/update",
+                //url: "${pageContext.request.contextPath}/user/update",
+                url: "http://www.baidu.com",
                 type: "post",
                 dataType: "JSON",
                 data: {id: uid, name: "1", age: "1", gender: "1"},
